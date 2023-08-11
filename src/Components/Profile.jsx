@@ -36,7 +36,7 @@ function Profile() {
 
     return (
         <>
-            <img src={imageUrl} alt="profile-image" width="200" />
+            <img src={imageUrl} alt="profile-image" width="250" />
             <h1 className='p-4'>{name}</h1>
             <p>{height} cm</p>
             <p>Homeworld: {homeworld}</p>
